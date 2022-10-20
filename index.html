@@ -11,18 +11,22 @@
 
 <body>
     <header>
-        <nav id="nav" class="px-5 py-5 bg-yellow-200 sm:flex sm:px-24 sm:justify-between">
-            <section class="flex justify-between">
-                <section>
-                    <h1>LOGO</h1>
-                </section>
+        <nav id="nav" class="px-5 py-5 bg-yellow-200 sm:flex sm:px-12 sm:justify-between sm:items-center md:px-24">
+            <section class="flex justify-between items-center">
+
+                <figure>
+                    <img class="cursor-pointer" src="assets/img/Group 87.png" alt="">
+                </figure>
+
                 <button class="flex">
-                    <svg id="bar" class=" h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <svg id="bar" class="fill-rose-500 h-6 w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
                         <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                         <path
                             d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
                     </svg>
-                    <svg id="close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <svg id="close" class="fill-rose-500 hidden h-6 w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
                         <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                         <path
                             d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
@@ -45,6 +49,38 @@
             </ul>
         </nav>
     </header>
+    <!-- hero -->
+    <section>
+        <section class="w-full absolute bg-yellow-200 ">
+            <figure class="transition ease-in duration-500 delay-150 hover:-translate-y-3 ">
+                <img class="h-[38rem] sm:h-96 lg:h-[32rem]" src="assets/img/Group 86.png" alt="">
+            </figure>
+        </section>
+        <section
+            class="absolute z-10 py-3 px-10 sm:flex sm:flex-row-reverse sm:justify-between sm:items-center md:justify-between md:px-16 lg:px-20 ">
+            <figure class="flex justify-center py-2">
+                <img class="rounded-sm object-cover transition ease-in-out duration-700 delay-300 hover:scale-105 h-56 hover:translate-y-1 sm:w-[38rem] sm:h-56  md:h-72 md:w-[40rem] lg:h-80 lg:w-[32rem]"
+                    src="assets/img/Rectangle.png" alt="">
+            </figure>
+            <section class="px-4">
+                <h1
+                    class="py-1 font-semibold text-center font-sans text-xl text-rose-500 sm:text-left sm:text-2xl lg:text-4xl">
+                    Nelly Saunders </h1>
+                <h1 class="py-1 font-semibold font-sans text-xl text-center sm:text-left sm:text-2xl lg:text-4xl">UI/UX
+                    Designer &
+                    Front End Developer</h1>
+                <p class=" py-1 text-center font-sans text-sm sm:text-base sm:text-left lg:text-lg">Lorem ipsum dolor
+                    sit amet
+                    consectetur adipisicing elit.
+                    Quae molestiae illo illum exercitationem dignissimos perferendis vel doloribus deleniti repudiandae
+                    voluptate.
+                </p>
+                <p class="text-center mt-5 sm:text-left"><a class="bg-red-500 px-5 py-2 rounded-sm text-white font-sans"
+                        href="">More Info</a></p>
+            </section>
+        </section>
+    </section>
+    <!-- end hero -->
     <script src="main.js"></script>
 </body>
 
